@@ -1,12 +1,12 @@
-(footprint "SW-SMD_L3.9-W3.0-P4.45"
+(footprint "R0805"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2.5 0)
+		(at 0 -1.5 0)
 		(layer "F.SilkS")
-		(uuid "c8d085dd-071e-4a39-be9e-3b821fb093cc")
+		(uuid "2d8be2db-c336-4244-8e0c-74ce9c04cd9e")
 		(effects
 			(font
 				(size 1 1)
@@ -14,10 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "SW-SMD_L3.9-W3.0-P4.45"
-		(at 0 4 0)
+	(property "Value" "R0805"
+		(at 0 1.5 0)
 		(layer "F.Fab")
-		(uuid "d93b51c9-7d23-4f27-848b-472896de341d")
+		(uuid "a0b17328-d33d-4769-8544-3e0578717f67")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0b22fb19-defa-43e9-8f2e-8e7df71c1137")
+		(uuid "ade7b3c5-f594-4b7f-966a-e723ddd0d544")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c5a8aa05-2232-4611-9331-eaf3e2c44c61")
+		(uuid "ae072ffa-1cf0-452d-b692-3ff0ee9f1794")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,71 +51,80 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.03 -1.54)
-		(end -2.03 -0.88)
+		(start -1.76 -0.92)
+		(end -0.48 -0.92)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a30075ca-f04d-412e-aa79-1613387938cc")
+		(uuid "37fa4135-da02-4334-a8f0-8c2012c738b7")
 	)
 	(fp_line
-		(start -2.03 1.54)
-		(end -2.03 0.88)
+		(start -1.76 0.92)
+		(end -1.76 -0.92)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6b7625c0-8aa6-4d4f-9d11-a0f256b1854f")
+		(uuid "fffde3ea-5785-4e4b-acee-56a1ddf4c3ef")
 	)
 	(fp_line
-		(start 2.03 -1.54)
-		(end -2.03 -1.54)
+		(start -0.48 0.92)
+		(end -1.76 0.92)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dad86e14-f93d-408b-95ba-c3904faae7e5")
+		(uuid "1b58b5c7-37d5-4059-bbe5-0cdb20ae00ad")
 	)
 	(fp_line
-		(start 2.03 1.54)
-		(end -2.03 1.54)
+		(start 0.48 0.92)
+		(end 1.76 0.92)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dd881f0f-74f3-47db-91ef-91f52455a61f")
+		(uuid "8637a134-8215-4a69-9d31-2d4f170ce7b8")
+	)
+	(fp_line
+		(start 1.76 -0.92)
+		(end 0.48 -0.92)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a128d017-13b4-41ca-9d3f-ca46a55dbac2")
+	)
+	(fp_line
+		(start 1.76 0.92)
+		(end 1.76 -0.92)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11c6e2e2-6030-40ca-9649-1633214de7f3")
 	)
 	(fp_circle
-		(center 0 0)
-		(end 0.9 0)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "f45f7061-77a5-4f33-8323-3a3eee30b962")
-	)
-	(fp_circle
-		(center 2.5 -1.47)
-		(end 2.53 -1.47)
+		(center -1 0.64)
+		(end -0.97 0.64)
 		(stroke
 			(width 0.06)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "154776b4-0c81-4eba-b9ce-83c1d3527326")
+		(uuid "e6aea366-b85c-4d0c-81ed-914d4687048f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "412b6a97-b6f0-488c-b7a8-639727dccd7a")
+		(uuid "b8e84275-2572-408a-9401-aadf163123f2")
 		(effects
 			(font
 				(size 1 1)
@@ -124,19 +133,19 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -2.18 0)
-		(size 1.23 1.36)
+		(at -1 0)
+		(size 1.13 1.38)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8e6879d6-78bc-410d-89bb-22ab6460faa0")
+		(uuid "c90e2b55-b90f-439f-b40d-da270ac31b69")
 	)
 	(pad "2" smd rect
-		(at 2.18 0)
-		(size 1.23 1.36)
+		(at 1 0)
+		(size 1.13 1.38)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f602beaf-bdc5-43f9-9053-c111cd3464ff")
+		(uuid "128ccb61-f5e5-4253-84b4-1b07f6c79d25")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/conta/OneDrive/Documents/GitHub/carkit/libs/imported_components.3dshapes/SW-SMD_L3.9-W2.9-H2.0-LS4.8.wrl"
+	(model "C:/Users/conta/OneDrive/Documents/GitHub/carkit/libs/imported_components.3dshapes/R0805_L2.0-W1.3-H0.6.wrl"
 		(offset
 			(xyz 0 -0 -0)
 		)
@@ -144,7 +153,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
