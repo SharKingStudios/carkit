@@ -1,6 +1,0 @@
-2025-11-23 19:28:26,605 DEBUG: Running transform on 1 selected items
-2025-11-23 19:28:26,606 DEBUG: Calculated transform center: (105032798, 44863398)
-2025-11-23 19:28:26,606 DEBUG: Transforming drawing type 9 (Text) at (106000000, 51000000)
-2025-11-23 19:28:26,606 DEBUG: Drawing is FP/PCB_TEXT
-2025-11-23 19:28:26,606 DEBUG: Transforming text 'Drive Motor'
-2025-11-23 19:28:26,606 DEBUG: Done
