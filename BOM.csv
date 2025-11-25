@@ -1,5 +1,5 @@
 Value,Qty,Price Ea.,Price total (MOQ),LCSC link
-ESP32-C3-WROOM-02-N4 (MCU),1,3.13,3.13,https://www.lcsc.com/product-detail/C2934560.html
+ESP32-C3-WROOM-02-H4 (MCU),1,3.2978,3.30,https://www.lcsc.com/product-detail/C2944070.html
 DRV8876PWPR (Dual DC Motor Driver),2,0.6088,1.22,https://www.lcsc.com/product-detail/C575551.html
 LM2596SX-5.0/NOPB (5V buck),1,0.8804,0.88,https://www.lcsc.com/product-detail/C10002.html
 AMS1117-3.3V (3.3V LDO),1,0.0342,0.36,https://www.lcsc.com/product-detail/C5120765.html
@@ -24,10 +24,15 @@ PZ2.54-2*40-SMT (to cut),1,0.4828,0.48,https://www.lcsc.com/product-detail/C5378
 CYA1040-33UH Inductor,1,0.3500,1.60,https://www.lcsc.com/product-detail/C6364680.html
 MST-12D18G4 SPDT Slide Switch,1,0.0380,0.38,https://www.lcsc.com/product-detail/C49023767.html
 ,,,,
+LCSC parts total (FOR 10 BOARDS),,,"70.09",
+LCSC order shipping,,,"15.47", https://www.lcsc.com/
+,,,,
 JLCPCB Fabrication,10,,"5.00",https://jlcpcb.com/
 JLCPCB Stencil,1,,"7.00",https://jlcpcb.com/
 JLCPCB Shipping,,,"14.15",https://jlcpcb.com/
 ,,,,
-Total,,,"41.02",
+Total,,,"112.06",
 ,,,,
-Top Up for parts order,,,"5.00",
+Top Up for extra PCBs order,,,"5.00", (Extra production cost + shipping for +5 PCBs)
+Top Up for extra parts,,,"55.56", (84.71 - 29.15 LCSC parts total for 10 boards)
+Total Top Up,,,"60.56",
