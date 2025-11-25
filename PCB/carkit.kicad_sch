@@ -5540,6 +5540,16 @@
 		)
 		(uuid fb357b21-e9b1-43c3-b269-6bd8f6eb88bb)
 	)
+	(text "Drive Motor"
+		(exclude_from_sim no)
+		(at 233.68 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04d18ada-c91b-40fb-ab29-25ec68f85a74")
+	)
 	(text "MOUNTING"
 		(exclude_from_sim no)
 		(at 170.688 131.064 0)
@@ -5552,6 +5562,16 @@
 			)
 		)
 		(uuid "0af89419-99f5-4028-becf-b15c5eca8617")
+	)
+	(text "Steering Motor"
+		(exclude_from_sim no)
+		(at 143.51 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13af3f85-142e-4aba-a969-c6867d474ea7")
 	)
 	(text "POWER\n"
 		(exclude_from_sim no)
